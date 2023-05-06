@@ -10,4 +10,3 @@ import Card from "primevue/card"
     <RouterView />
   </BaseLayout>
 </template>
-

@@ -6,7 +6,7 @@
         sub
       </span>
     </template>
-  </Card>   
+  </Card>
 </template>
 
 <style lang="scss">
