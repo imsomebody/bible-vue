@@ -12,7 +12,7 @@
         </div>
         <div class="mb-6 lg:mb-0">
           <span class="flex flex-row justify-center mb-5">
-            <TheLink class="text-blue-600">
+            <TheLink class="text-blue-600" :to="{ name: 'search' }">
               NEVAGAR LIVROS E CAPITULOS
             </TheLink>
             <TheLink class="text-blue-600"> Contribuir ou Saber Mais </TheLink>
