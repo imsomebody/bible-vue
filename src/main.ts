@@ -1,6 +1,7 @@
 import "./assets/scss/theme.scss"
 import "primevue/resources/themes/soho-dark/theme.css"
 import "primevue/resources/primevue.min.css"
+import "primeicons/primeicons.css"
 
 import { createApp } from "vue"
 import { createPinia } from "pinia"
