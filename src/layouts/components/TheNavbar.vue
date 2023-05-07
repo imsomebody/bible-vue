@@ -2,8 +2,8 @@
   <Card class="grow-1 navbar sticky">
     <template v-slot:content>
       <span class="flex flex-row gap-2 items-center">
-        <h5 class="text-xl">Texto</h5>
-        sub
+        <h5 class="text-xl">Biblia</h5>
+        <span class="text-blue-600"> ONLINE </span>
       </span>
     </template>
   </Card>
