@@ -16,6 +16,8 @@ export const useBibleStore = defineStore("bible", () => {
     () => (abbrev: string) => chapters.value[abbrev]
   )
 
+  const getBookByIndex = computed(() => (bookId: number) => books.value[bookId])
+
   async function refresh() {
     const data = await bible.createData()
 
@@ -28,6 +30,7 @@ export const useBibleStore = defineStore("bible", () => {
     chapters,
 
     getChapterByAbbrev,
+    getBookByIndex,
 
     refresh,
 
