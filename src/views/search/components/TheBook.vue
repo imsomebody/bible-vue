@@ -33,7 +33,7 @@ const book = computed(() => {
   --book-item-highlight: rgba(84, 176, 243, 0.5);
 }
 
-.book-row-item:hover {
+.book-row-item:not(.no-highlight):hover {
   transition: background 0.2s;
   background: var(--book-item-highlight);
   border-radius: 4.6px;

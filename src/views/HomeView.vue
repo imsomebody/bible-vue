@@ -36,10 +36,13 @@
         </div>
       </div>
     </section>
+
+    <TheFooter></TheFooter>
   </main>
 </template>
 
 <script setup lang="ts">
 import TheLink from "@/components/TheLink.vue"
 import Button from "primevue/button"
+import TheFooter from '@/views/components/TheFooter.vue'
 </script>
